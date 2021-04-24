@@ -55,7 +55,7 @@ saveanswer[j]<-savebank
 }
 ```
 ```{r}
-hist(saveanswer)
+hist(saveanswer,main="Brownlown Winnings,\n 4.3:1 Ratio, Class Size = 35", xlab="winnings US$")
 ssanswer<-sort(saveanswer)
 print(ssanswer[25])
 print(ssanswer[975])
@@ -86,7 +86,7 @@ saveanswer[j]<-savebank
 }
 ```
 ```{r}
-hist(saveanswer)
+hist(saveanswer,main="Brownlown Winnings,\n 2:1 Ratio, Class Size = 29", xlab="winnings US$")
 ssanswer<-sort(saveanswer)
 print(ssanswer[25])
 print(ssanswer[975])
@@ -117,7 +117,7 @@ saveanswer[j]<-savebank
 }
 ```
 ```{r}
-hist(saveanswer)
+hist(saveanswer,main="Brownlown Winnings,\n 2:1 Ratio, Class Size = 35", xlab="winnings US$")
 ssanswer<-sort(saveanswer)
 print(ssanswer[25])
 print(ssanswer[975])
@@ -129,3 +129,4 @@ The 95% confidence interval is between `r ssanswer[25]` and `r ssanswer[975]`.
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+We began this problem by responding to the third question first. We began by determining how much money Brownlow if the bet was completed 637 times with a 2:1 odds. We then ran this 1000 times to find the 95% confidence interval.
