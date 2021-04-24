@@ -61,7 +61,7 @@ print(ssanswer[25])
 print(ssanswer[975])
 ```
 
-After adjusting the amount Brownlow pays out, we determined that the most fair odds are a 4.30:1 ratio.
+After adjusting the amount that Brownlow pays out, we were able to determine that the most fair odds are a 4.30:1 ratio.
 
 # What size of class makes the 2:1 bet fair?  
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
